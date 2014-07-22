@@ -1,62 +1,53 @@
+/* cssreset.com */
+* {
+	margin: 0;
+	padding: 0;
+}
 body
 {
 	background-color: #ffffff;
-	font-style: Arial;
+	font-family: Arial;
 	font-size: 14px;
-}
-.row
-{
-	width:100%;
-	
+	line-height: 16px;
 }
 .container
 {
-	padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+	width:940px;
+	margin: 0 auto;
 
+}
+.content
+{
+	margin: 10px 2px 2px 0px;
 }
 .banner
 {
 	background-color: #499bd7;
-	height: 10%;
+}
+.bannerText
+{
+	padding: 72px 0px;
 	text-align: center;
-	font-size: 30px;
-	text-align: center;
-	vertical-align: middle;
-	color:#ffffff;
-	line-height: 150px;
-
 }
 #menuBar
 {
 	background: #d6d6d6;
-	height: 50px;
-	line-height: 50px;
-	vertical-align: middle;
-	margin-top:-20px; 
+	padding: 17px 5px ;	
 }
 #menuText
 {
-	width :940px;
-	padding-left: 8%;
+	margin-left: 0px;
 	
-
 }
 #menuText ul li
 {
 	display: inline;
 	list-style: none;
-	margin-left: 10px;
-
 }
 #menuText li:before
 {
-	
 	content:  url('../images/divider.png');
-	margin-right: 10px;
-	margin-left: 0px;
+	padding: 0px 5px;
 }
 #menuText li:first-child:before {
 	content: none;
@@ -65,86 +56,35 @@ body
 {
 	text-decoration: none;
 	color: #000000;
-
 }
 #menuText a:hover
 {
 	color: #499bd7;
-
 }
-.content
+h1
 {
-	width: 940px;
-	padding-left: 12%;
-	padding-top: 10px;
-	line-height: 20px;
-
+	font-size: 30px;
+	line-height: 32px;
+	color:#ffffff;
 }
 p
 {
 	text-align: justify;
-	width: auto;
-
+	margin-bottom: 10px;
 }
 .image
 {
-	margin-right: 10px;
-	margin-bottom: 10px;
-	margin-top: 10px;
+	margin: 2px 10px 8px 2px;
+	float:left;
 }
 .footer
 {
-	background-color: #eeeeee;	
-	height: 50px;
-	line-height: 50px;
-	vertical-align: middle;
-	padding-left: 9%;
-
-	
-
+	background-color: #eeeeee;
 }
-#footerText
+.footerText
 {
-
-	font-size: 8pt;
-	
-	
-}
-#footerText ul li
-{
-	display: inline;
-	list-style: none;
-
-}
-#footerText li:before
-{
-	
-	content:  url('../images/divider.png');
-	margin-right: 10px;
-}
-#footerText li:first-child:before {
-	content: none;
-}
-#footerText a
-{
-	text-decoration: none;
-	color: #000000;
-
-}
-#footerText a:hover
-{
-	color: #499bd7;
-
-}
-
-.alignRight
-{
-	padding-left: 60%;
-	position: relative;
-	
-}
-.alignLeft
-{
-	float: left;
-	position: relative;
+	font-size: 10px;
+	line-height: 12px;	
+	padding: 19px 0px;	
+	margin-left: 5px;
 }
