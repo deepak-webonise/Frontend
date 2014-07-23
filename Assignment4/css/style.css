@@ -1,0 +1,226 @@
+/* cssreset.com */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section 
+{
+	display: block;
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url(../fonts/SourceSansPro-Light.otf);
+}
+body
+{
+	line-height: 1;
+}
+ol, ul
+{
+	list-style: none;
+}
+blockquote, q 
+{
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after 
+{
+	content: '';
+	content: none;
+}
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End of Reset CSS*/
+body
+{
+	font-family: "Source Sans Pro";
+	line-height: 22pt;
+	font-size: 18;
+}
+.container
+{
+	width:940px;
+	margin: 0 auto;
+
+}
+.clearFix
+{
+	clear: both;
+}
+.header
+{
+	background: #444444;
+		
+}
+
+#logo
+{
+	float:left;
+	padding: 9px 0px;
+	margin-right: 50px;
+}
+#menuText
+{
+	margin-left: 0px;
+	line-height: 30pt;
+	
+}
+#menuText ul li
+{
+	display: inline;
+	list-style: none;	
+}
+#menuText li
+{
+	padding:0px 20px;
+	
+}
+#menuText li:before
+{
+	content:  url('../images/menuDivider.png');
+	
+}
+#menuText li:last-child:after {
+	content:  url('../images/menuDivider.png');
+	
+}
+#menuText a
+{
+	text-decoration: none;
+	color: #000000;
+}
+#menuText a:hover
+{
+	color: #499bd7;
+}
+.slider
+{
+	background: url('../images/sliderBg.jpg') repeat;
+
+}
+.sliderContent
+{
+	padding:10px 0px 10px 0px;
+}
+.sliderText
+{
+	float:left;
+	padding: 190px 10px 100px 0px;
+
+}
+h2
+{
+	font-size: 46px;
+	line-height: 50pt;
+	color: #ffffff;
+	font-weight: bold;
+}
+h4
+{
+	font-size: 34px;
+	line-height: 38pt;
+	color: #ffffff;	
+}
+/* h4 with bold*/
+#lable
+{
+	font-size: 36px;
+	line-height: 38pt;
+	color: #444444;	
+	font-weight: bold;
+}
+.button
+{
+
+	width: 170px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	float:left;
+	margin: 10px;
+}
+.buttonWhite
+{
+	background-color: #f2f2f2;
+}
+.buttonBrown
+{
+	background-color: #ff9900;
+}
+.content
+{
+	padding: 70px 0px;
+
+}
+.circleDisplay ul li
+{
+	display: inline;
+	list-style: none;
+
+}
+.circleDisplay li
+{
+	float:left;
+	text-align: center;
+	
+	margin: 30px;
+
+}
+.circle
+{
+	width: 140px;
+	height: 140px;
+	border-radius: 100px;
+	background: #efefef;
+}
+.circleContent
+{
+	padding:49px 35px;	
+
+}
+.footer
+{
+	background: #ececec;
+}
+.footerText
+{
+		font-size: 16px;
+		line-height: 16px;
+
+}
+.footerText ul li
+{
+	display: inline;
+	list-style: none;
+	padding : 25px 20px;
+
+}
+.footerText li
+{
+	padding : 25px 20px;
+
+}
