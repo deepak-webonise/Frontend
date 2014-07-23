@@ -209,18 +209,19 @@ h4
 .footerText
 {
 		font-size: 16px;
-		line-height: 16px;
+		line-height: 30px;
+		padding : 20px 10px 80px;
+
 
 }
 .footerText ul li
 {
 	display: inline;
 	list-style: none;
-	padding : 25px 20px;
-
+	
 }
 .footerText li
 {
-	padding : 25px 20px;
+	margin-left: 10px;
 
 }
