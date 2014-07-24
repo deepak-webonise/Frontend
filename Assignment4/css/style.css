@@ -26,17 +26,6 @@ footer, header, hgroup, menu, nav, section
 {
 	display: block;
 }
-@font-face 
-{
-        font-family: "Source Sans Pro";
-        src: url('../fonts/888244629-SourceSansPro-Regular.eot');
-        src: url('../fonts/888244629-SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/888244629-SourceSansPro-Regular.svg#Source Sans Pro') format('svg'),
-        url('../fonts/888244629-SourceSansPro-Regular.woff') format('woff'),
-        url('../fonts/888244629-SourceSansPro-Regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-}
 body
 {
 	line-height: 1;
@@ -63,21 +52,14 @@ table
 }
 /*End of Reset CSS*/
 
-@font-face 
-{
-        font-family: "Source Sans Pro";
-        src: url('../fonts/888244629-SourceSansPro-Regular.eot');
-        src: url('../fonts/888244629-SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/888244629-SourceSansPro-Regular.svg#Source Sans Pro') format('svg'),
-        url('../fonts/888244629-SourceSansPro-Regular.woff') format('woff'),
-        url('../fonts/888244629-SourceSansPro-Regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-}
+
+
+
 body
 {
-	font-family: 'Source Sans Pro', 'sans-serif';
+	font-family: "Arial", Helvetica, sans-serif;
 	font-size: 18px;
+	line-height: 30px;
 }
 a
 {
@@ -108,68 +90,61 @@ a
 
 .menuText
 {
-	
+	float:left;
+	list-style: none;
 	line-height: 30px;
 	
-}
-.menuText ul
-{
-	
-	list-style: none;
-
 }
 .menuText li
 {
 	float:left;	
+	border-left: 1px solid #333333;
 		
 }
-.menuDivider
+.menuTextRightBorder
 {
-	width:1px;
-	background: #333333;
-	height: 50px;
+	border-right: 1px solid #333333;
 }
-
 #liClear
 {
 	clear: both;
 	float: none;
+	border:0px;
 }
 
 .menuText a
 {
 	float: left;
 	padding: 10px 10px;
-	text-decoration: none;
 	color: #888888;
 }
 .menuText a:hover
 {
 	color: #ff9900;
 }
-.slider
+.banner
 {
 	background: url('../images/sliderBg.jpg') repeat;
 
 }
-.sliderContent
+.bannerContent
 {
-	padding:10px 0px 10px 0px;
+	padding:50px 30px 20px 30px;
 }
-.sliderText
+.bannerText
 {
 	float:left;
-	margin: 190px 0px 100px 0px;
+	margin: 130px 20px 100px 0px;
 
 }
-.sliderImg
+.bannerImg
 {
 	float:left;
 	
 }
 h1
 {
-	font-size: 46px;
+	font-size: 37px;
 	line-height: 48px;
 	
 }
@@ -180,7 +155,7 @@ h1.heading
 }
 h3
 {
-	font-size: 34px;
+	font-size: 28px;
 	line-height: 36px;
 	
 }
@@ -191,15 +166,15 @@ h3.subHeading
 /* h4 with bold*/
 .button
 {
-
+	width:170px;
 	border-radius: 3px;
 	text-align: center;
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 22px;
 	font-weight: bold;
 	float:left;
 	margin: 45px 20px 0px 0px;
-	padding: 14px 35px;
+	padding: 14px 0px;
 }
 .buttonWhite
 {
