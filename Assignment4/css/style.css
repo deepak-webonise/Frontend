@@ -276,7 +276,7 @@ h3.howItWorks
 }
 .footerMenu  a
 {
-	padding : 0px 8px;
+	padding : 0px 10px;
 	text-decoration: none;
 	color:#fe8000;
 	font-weight: bold;
@@ -321,7 +321,7 @@ h3.howItWorks
 	float: left;
 	list-style: none;
 	margin-left: 60px;
-	line-height: 18px;
+	line-height: 14px;
 }
 .bottomMenu  li
 {
@@ -336,7 +336,7 @@ h3.howItWorks
 }
 .bottomMenu a
 {
-	padding: 5px;
+	padding: 0px  5px;
 	color: #aaaaaa;
 
 
