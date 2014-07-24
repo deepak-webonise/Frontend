@@ -188,20 +188,26 @@ h3.subHeading
 }
 .content
 {
-	padding: 70px 0px;
+	padding: 60px 0px 100px 0px;
 
 }
-.circleDisplay ul 
+.circleDisplay
 {
-	
+	float:left;
 	list-style: none;
-
+	font-size: 16px;
+	line-height: 22px;
+	color: #888888;
+	margin: 0px auto;
+	padding: 0px 60px;
 }
 .circleDisplay li
 {
 	float:left;
-	margin-left: 70px;
-	min-height: 120px;
+	margin: 0px 30px;
+	width: 130px;
+	text-align: center;
+	
 
 }
 
@@ -212,13 +218,30 @@ h3.howItWorks
 	font-weight: bold;
 	text-align: center;
 }
-.circle
+.icon
 {
 	
 	width: 140px;
 	height: 140px;
 	border-radius: 100px;
-	background: #efefef;
+	margin: 0px auto 20px auto;
+}
+.iconHome
+{
+	background :#efefef url('../images/icon2.png') no-repeat center ;
+
+}
+.iconQueue
+{
+	background :#efefef url('../images/icon1.png') no-repeat center ;
+}
+.iconGallery
+{
+	background :#efefef url('../images/icon3.png') no-repeat center ;
+}
+.iconReturn
+{
+	background :#efefef url('../images/icon4.png') no-repeat center ;
 }
 .circleContent
 {
