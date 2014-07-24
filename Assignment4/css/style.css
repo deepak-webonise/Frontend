@@ -243,90 +243,98 @@ h3.howItWorks
 {
 	background :#efefef url('../images/icon4.png') no-repeat center ;
 }
-.circleContent
-{
-	padding:49px 35px;	
-	color :#888888;
 
-}
 #liCircleClear
 {
 	clear: both;
 	float:none;
 	margin-left: 0px;
 }
-#liCircleClear div
-{
-	clear: both;
-	
-}
+
 .footer
 {
 	background: #ececec;
+	font-size: 12px;
+	line-height: 16px;
 }
-.footerText
+.footerMenu
 {
-		font-size: 16px;
-		line-height: 30px;
-		float: left;
 		
-
-
+		float: left;
+		list-style: none;
 }
-.footerText ul li
-{
-	float:left;
-	list-style: none;
-	
-}
-.footerText li
+
+.footerMenu li
 {
 	margin-left: 10px;
-
+	float: left;
 }
-.footerText  a
+.footerMenu  a
 {
-	padding : 20px 10px 80px;
+	padding : 10px 10px;
 	text-decoration: none;
 	color:#fe8000;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	display: block;
 
+}
+#footerMenuHome
+{
+
+ color: #444444;
 }
 .social
 {
 	float:right;
+	list-style: none;
 }
-.social ul li
+.social li
+{
+	float: left;
+}
+
+.social  a
+{
+	padding : 5px 3px;
+	display: block;
+}
+.copyRight
 {
 	float:left;
-	list-style: none;
+	color: #aaaaaa;
+	padding: 5px;
 	
 }
-.social a
+.bottomMenu 
 {
-	margin: 5px;
-
-}
-.bottomMenu
-{
-	float:left;
-	margin-left:50px; 
-}
-.bottomMenu ul
-{
+	float: left;
 	list-style: none;
-
-	
+	margin-left: 60px;
+	line-height: 18px;
 }
 .bottomMenu  li
 {
 	
 	float: left;
+	border-right: 1px solid #aaaaaa;
+}
+#bottomNoBorder
+{
+	border:0px;
 
-	
 }
 .bottomMenu a
 {
-	margin: 5px;
-	font-size: 16px;
+	padding: 5px;
+	color: #aaaaaa;
+
 
 }
+.bottomMenu a:hover
+{
+	color: #fe8000;
+
+}
+
