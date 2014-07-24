@@ -51,14 +51,21 @@ table
 	border-spacing: 0;
 }
 /*End of Reset CSS*/
-
-
-
-
+@font-face 
+{
+        font-family: "Source Sans Pro";
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot');
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/888244629-SourceSansPro-Regular.svg#Source Sans Pro') format('svg'),
+        url('../fonts/888244629-SourceSansPro-Regular.woff') format('woff'),
+        url('../fonts/888244629-SourceSansPro-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
 body
 {
-	font-family: "Arial", Helvetica, sans-serif;
-	font-size: 14px;
+	font-family: "Source Sans Pro",Arial, Helvetica, sans-serif;
+	font-size: 18px;
 	line-height: 30px;
 }
 a
@@ -91,7 +98,7 @@ a
 	float:left;
 	list-style: none;
 	line-height: 30px;
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: bold;
 }
 .menuText li
@@ -143,7 +150,7 @@ a
 }
 h1
 {
-	font-size: 37px;
+	font-size: 40px;
 	line-height: 48px;
 	
 }
@@ -154,7 +161,7 @@ h1.heading
 }
 h3
 {
-	font-size: 28px;
+	font-size: 30px;
 	line-height: 36px;
 	
 }
@@ -253,7 +260,7 @@ h3.howItWorks
 .footer
 {
 	background: #ececec;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 16px;
 }
 .footerContent
@@ -278,8 +285,8 @@ h3.howItWorks
 	text-decoration: none;
 	color:#fe8000;
 	font-weight: bold;
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 16px;
+	line-height: 18px;
 	display: block;
 
 }
@@ -311,7 +318,7 @@ h3.howItWorks
 {
 	float:left;
 	color: #aaaaaa;
-	padding: 5px;
+	
 	
 }
 .bottomMenu 
@@ -334,10 +341,9 @@ h3.howItWorks
 }
 .bottomMenu a
 {
-	padding: 0px  5px;
+	padding: 1px 5px;
 	color: #aaaaaa;
-
-
+	display: block;
 }
 .bottomMenu a:hover
 {
