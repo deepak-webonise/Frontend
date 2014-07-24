@@ -93,7 +93,8 @@ a
 	float:left;
 	list-style: none;
 	line-height: 30px;
-	
+	font-size: 12px;
+	font-weight: bold;
 }
 .menuText li
 {
@@ -257,6 +258,11 @@ h3.howItWorks
 	font-size: 12px;
 	line-height: 16px;
 }
+.footerContent
+{
+	padding: 15px 10px 65px 10px;
+
+}
 .footerMenu
 {
 		
@@ -266,12 +272,11 @@ h3.howItWorks
 
 .footerMenu li
 {
-	margin-left: 10px;
 	float: left;
 }
 .footerMenu  a
 {
-	padding : 10px 10px;
+	padding : 0px 8px;
 	text-decoration: none;
 	color:#fe8000;
 	font-weight: bold;
@@ -279,6 +284,10 @@ h3.howItWorks
 	line-height: 16px;
 	display: block;
 
+}
+.footerMenu  a:hover
+{
+	color:#444444;
 }
 #footerMenuHome
 {
@@ -297,7 +306,7 @@ h3.howItWorks
 
 .social  a
 {
-	padding : 5px 3px;
+	padding : 0px 3px;
 	display: block;
 }
 .copyRight
