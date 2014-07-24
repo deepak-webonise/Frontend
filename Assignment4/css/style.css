@@ -58,19 +58,17 @@ table
 body
 {
 	font-family: "Arial", Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 30px;
 }
 a
 {
-
 	text-decoration: none;
 }
 .container
 {
 	width:940px;
 	margin: 0 auto;
-
 }
 #clear
 {
@@ -164,7 +162,7 @@ h3.subHeading
 {
 	color: #fefefe;	
 }
-/* h4 with bold*/
+
 .button
 {
 	width:170px;
@@ -192,7 +190,7 @@ h3.subHeading
 	padding: 60px 0px 100px 0px;
 
 }
-.circleDisplay
+.iconDisplay
 {
 	float:left;
 	list-style: none;
@@ -202,7 +200,7 @@ h3.subHeading
 	margin: 0px auto;
 	padding: 0px 60px;
 }
-.circleDisplay li
+.iconDisplay li
 {
 	float:left;
 	margin: 0px 30px;
