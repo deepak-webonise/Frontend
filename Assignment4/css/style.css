@@ -26,13 +26,21 @@ footer, header, hgroup, menu, nav, section
 {
 	display: block;
 }
-@font-face {
-    font-family: SourceSansPro;
-    src: url(../fonts/SourceSansPro-Light.otf);
+@font-face 
+{
+        font-family: "Source Sans Pro";
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot');
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/888244629-SourceSansPro-Regular.svg#Source Sans Pro') format('svg'),
+        url('../fonts/888244629-SourceSansPro-Regular.woff') format('woff'),
+        url('../fonts/888244629-SourceSansPro-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
 }
 body
 {
 	line-height: 1;
+	font-family: 'Source Sans Pro', 'sans-serif';
 }
 ol, ul
 {
@@ -54,11 +62,27 @@ table
 	border-spacing: 0;
 }
 /*End of Reset CSS*/
+
+@font-face 
+{
+        font-family: "Source Sans Pro";
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot');
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/888244629-SourceSansPro-Regular.svg#Source Sans Pro') format('svg'),
+        url('../fonts/888244629-SourceSansPro-Regular.woff') format('woff'),
+        url('../fonts/888244629-SourceSansPro-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
 body
 {
-	font-family: "Source Sans Pro";
-	line-height: 22px;
+	font-family: 'Source Sans Pro', 'sans-serif';
 	font-size: 18px;
+}
+a
+{
+
+	text-decoration: none;
 }
 .container
 {
@@ -135,7 +159,7 @@ body
 .sliderText
 {
 	float:left;
-	margin: 190px 10px 100px 0px;
+	margin: 190px 0px 100px 0px;
 
 }
 .sliderImg
@@ -145,8 +169,8 @@ body
 }
 h1
 {
-	font-size: 48px;
-	line-height: 50px;
+	font-size: 46px;
+	line-height: 48px;
 	
 }
 h1.heading
@@ -157,7 +181,7 @@ h1.heading
 h3
 {
 	font-size: 34px;
-	line-height: 38px;
+	line-height: 36px;
 	
 }
 h3.subHeading
@@ -168,21 +192,23 @@ h3.subHeading
 .button
 {
 
-	width: 170px;
 	border-radius: 3px;
 	text-align: center;
 	font-size: 20px;
+	line-height: 22px;
 	font-weight: bold;
 	float:left;
-	margin: 10px;
+	margin: 45px 20px 0px 0px;
+	padding: 14px 35px;
 }
 .buttonWhite
 {
-	background-color: #f2f2f2;
+	background: #f2f2f2;
+	color:#222222;
 }
 .buttonBrown
 {
-	background-color: #ff9900;
+	background: #ff9900;
 	color: #ffffff;
 }
 .content
