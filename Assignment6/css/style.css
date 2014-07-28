@@ -1,0 +1,392 @@
+/* cssreset.com */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section 
+{
+	display: block;
+}
+body
+{
+	line-height: 1;
+	
+}
+ol, ul
+{
+	list-style: none;
+}
+blockquote, q 
+{
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after 
+{
+	content: '';
+	content: none;
+}
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End of Reset CSS*/
+@font-face 
+{
+	font-family:"Oxygen";
+	src:url("../fonts/Oxygen.eot?") format("../fonts/eot"),
+	url("../fonts/Oxygen.woff") format("../fonts/woff"),
+	url("../fonts/Oxygen.ttf") format("truetype"),
+	url("Oxygen.svg#Oxygen") format("svg");font-weight:normal;font-style:normal;
+}
+body
+{
+	font-family: "Oxygen" ,Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+}
+a
+{
+	text-decoration: none;
+}
+h2
+{
+	font-size: 44px;
+}
+h3
+{
+	font-size: 40px;
+}
+h5
+{
+	font-size: 18px;
+}
+h6
+{
+	font-size:14px;
+}
+.container
+{
+
+	width: 940px;
+	margin: 0px auto;
+}
+.header
+{
+	background:#ffffff;
+	min-height: 55px;
+}
+.logo
+{
+	float:left;
+	margin:5px 10px;
+	background: url('../images/logo.png') no-repeat center;
+	width: 120px;
+	height: 45px;
+}
+.clear
+{
+	clear: both;
+	float:none;
+}
+.navigation
+{
+	font-size:16px;
+	line-height: 18px;
+	font-weight: bold;
+	list-style: none;
+	float: left;
+	margin-left:50px;
+
+}
+.navigation li
+{
+	float:left;
+}
+.navigation li.clear
+{
+	float:none;
+	clear:both;
+}
+.navigation a
+{
+	padding: 18px 15px;
+	display: block;
+	color:#000000;
+}
+.navigation a:hover
+{
+	color:#990000;
+}
+.search
+{
+	border:1px solid #888888;
+	border-radius:3px;
+	float:left;
+	margin:10px 0px 0px 60px;
+	
+
+}
+.search input
+{
+	border: 0px;
+	height: 28px;
+	float:left;
+}
+.searchIcon
+{
+	background:url('../images/search.png') no-repeat right;
+	height: 16px;
+	width: 16px;
+	display: block;
+	float:right;
+	padding: 7px 0px;
+	margin-right: 10px;
+}
+.socialMenu
+{
+	list-style:none;
+	float:right;
+	margin-top: 10px;
+}
+.socialMenu li
+{
+	margin:0px;
+	float:left;	
+}
+.socialMenu li.liClear
+{
+	clear:both;
+	float:none;
+}
+.socialMenu a
+{
+	display:block;
+	margin :0px 3px;
+}
+.socialIcon
+{
+	width:30px;
+	height:30px;
+	background:#000000;
+	border-radius:30px;
+}
+.socialIconFb
+{
+	background:#000000 url('../images/fb.png') no-repeat center center;
+}
+.socialIconTw
+{
+	background:#000000 url('../images/tw.png') no-repeat center center;
+}
+.socialIconPing
+{
+	background:#000000 url('../images/ping.png') no-repeat center center;
+}
+.socialIconGoogle
+{
+	background:#000000 url('../images/google.png') no-repeat center center;
+}
+.slider
+{
+	background:#000000;
+	min-height: 545px;
+}
+.sliderImg
+{
+	float:left;
+}
+.sliderContent
+{
+	float:left;
+	color:#ffffff;
+	margin-top: -105px;
+
+}
+.sliderContent h2
+{
+
+	line-height: 18px;
+}
+.sliderContent p
+{
+	line-height: 20px;
+	font-size: 22px;
+	margin-top: 20px;
+}
+.tabs
+{
+	background:#ecab1f;
+	min-height: 100px;
+	
+}
+.tabsMenu
+{
+	list-style: none;
+	float: left;
+	padding: 20px 10px;
+	margin-left: -20px;
+}
+.tabsMenu li
+{
+	float: left;
+	width: 210px;
+	border-radius: 5px;
+	font-size: 22px;
+	line-height: 28px;
+	background: #ffffff;
+	margin-left: 20px;
+}
+.tabsMenu a
+{
+	padding:16px 15px 16px 20px;
+	display: block;
+	color:#222222;
+}
+.tabsMenu li.liClear
+{
+	float:none;
+	clear:both;
+	width: 0px;
+	border-radius: 0px;
+	padding:0px;
+	
+}
+.tabsIcon
+{
+	height: 25px;
+	width: 25px;
+	background:url('../images/tabIcon.png') no-repeat center;
+	
+	float:right;
+}
+.main
+{
+
+}
+
+.content
+{
+	padding: 65px 20px 70px 10px;
+}
+.content h3
+{
+	line-height: 46px;
+	margin-bottom: 15px;
+	color:#888888;
+}
+.events
+{
+	list-style: none;
+	float:left;
+	
+	margin-left: -20px;
+}
+.events li
+{
+	float:left;
+	width:280px;
+	margin-left: 20px;
+	background:#4466ff;
+}
+.eventImg
+{
+	min-height: 200px;
+	width:inherit;
+}
+.eventDescription
+{
+	
+	padding: 20px 10px 25px;
+	color:#ffffff;
+}
+.eventDate
+{
+	font-size: 11px;
+	line-height: 18px;
+}
+.eventDescription h5
+{
+	line-height: 22px;
+	margin-top: 5px;
+}
+.eventDescription p
+{
+	font-size: 14px;
+	line-height: 16px;
+	margin-top: 16px;
+}
+.events li.liClear
+{
+	clear:both;
+	float:none;
+	width: 0px;
+	margin-left: 0px;
+	background:none;
+}
+.footer
+{
+	border-top: 1px solid #dadada;
+	background:#f1f1f1;
+}
+.footerContent
+{
+	padding: 25px 10px 130px 10px;
+}
+.footerNavigation
+{
+	float:left;
+	list-style: none;
+	font-size: 14px;
+	line-height: 20px;
+	margin-right: 120px;
+}
+.footerNavigation h6
+{
+	color:#666666;
+	text-transform: uppercase;
+
+}
+.footerNavigation a
+{
+	display: block;
+	padding: 5px 0px;
+	color:#000000;
+}
+.footerNvaigationBold
+{
+	margin-top: 30px;
+}
+
+.footerNvaigationBold a
+{
+	display: block;
+	padding: 5px 0px;
+	color:#000000;
+	font-weight: bold;
+}
+.footerNavigation li.liClear
+{
+	clear: both;
+	float: none;
+}
