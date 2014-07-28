@@ -1,4 +1,5 @@
-/* cssreset.com */
+
+/* cssreset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,7 +30,7 @@ footer, header, hgroup, menu, nav, section
 body
 {
 	line-height: 1;
-	font-family: 'Source Sans Pro', 'sans-serif';
+	
 }
 ol, ul
 {
@@ -50,11 +51,24 @@ table
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+*{
+	margin: 0;
+	padding: 0;
+}
 /*End of Reset CSS*/
-
+@font-face {
+        font-family: "Titillium Web";
+        src: url('../fonts/786834717-TitilliumWeb-Regular.eot');
+        src: url('786834717-TitilliumWeb-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/786834717-TitilliumWeb-Regular.svg#Titillium Web') format('svg'),
+        url('../fonts/786834717-TitilliumWeb-Regular.woff') format('woff'),
+        url('../fonts/786834717-TitilliumWeb-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
 body
 {
-	font-family: "Arial", Helvetica, sans-serif;
+	font-family: "Titillium Web",Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	line-height: 17px;
 }
@@ -70,7 +84,7 @@ h2
 h3
 {
 	font-size:36px;
-	inline-box-align:40px;
+	line-height:40px;
 	
 }
 h4
@@ -156,7 +170,7 @@ h4
 }
 .banner
 {
-	background:url('../images/bannerbg2.png') repeat-x;
+	background:url('../images/bannerBg2.png') repeat-x;
 	
 }
 .bannerImage
@@ -169,6 +183,7 @@ h4
 {
 	float:left;
 	margin:100px 0px 250px 0px;
+	font-weight: bold;
 }
 .buttonContainer
 {
@@ -240,7 +255,7 @@ h4
 {
 	width:190px;
 	float:left;
-	margin-left:25px;
+	margin-right:25px;
 }
 .text li.liClear
 {
