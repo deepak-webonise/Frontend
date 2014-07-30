@@ -59,6 +59,24 @@ table
 	url("../fonts/Oxygen.ttf") format("truetype"),
 	url("Oxygen.svg#Oxygen") format("svg");font-weight:normal;font-style:normal;
 }
+@font-face
+{
+    font-family: 'MinionProRegular';
+    src: url('../fonts/minionpro-regular.eot');
+    src: url('../fonts/minionpro-regular.eot') format('embedded-opentype'),
+         url('../fonts/minionpro-regular.woff') format('woff'),
+         url('../fonts/minionpro-regular.ttf') format('truetype'),
+         url('../fonts/minionpro-regular.svg#MinionProRegular') format('svg');
+}
+@font-face 
+{
+    font-family: 'MinionProSemibold';
+    src: url('../fonts/minionpro-semibold.eot');
+    src: url('../fonts/minionpro-semibold.eot') format('embedded-opentype'),
+         url('../fonts/minionpro-semibold.woff') format('woff'),
+         url('../fonts/minionpro-semibold.ttf') format('truetype'),
+         url('m../fonts/inionpro-semibold.svg#MinionProSemibold') format('svg');
+}
 body
 {
 	font-family: "Oxygen" ,Arial, Helvetica, sans-serif;
@@ -84,6 +102,7 @@ h5
 h6
 {
 	font-size:14px;
+	font-family: "Oxygen" ,Arial, Helvetica, sans-serif;
 }
 .container
 {
@@ -309,6 +328,11 @@ h6
 	margin-left: 20px;
 	background:#4466ff;
 }
+.events a
+{
+	display: block;
+	width:inherit;
+}
 .eventImg
 {
 	min-height: 200px;
@@ -357,21 +381,24 @@ h6
 {
 	float:left;
 	list-style: none;
-	font-size: 14px;
-	line-height: 20px;
 	margin-right: 120px;
+
 }
 .footerNavigation h6
 {
 	color:#666666;
 	text-transform: uppercase;
+	margin-bottom: 15px;
 
 }
 .footerNavigation a
 {
 	display: block;
-	padding: 5px 0px;
+	padding: 2px 0px;
 	color:#000000;
+	font-family: "MinionProRegular",Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
 }
 .footerNvaigationBold
 {
@@ -381,12 +408,59 @@ h6
 .footerNvaigationBold a
 {
 	display: block;
-	padding: 5px 0px;
+	padding: 2px 0px;
 	color:#000000;
-	font-weight: bold;
+	font-family: "MinionProSemibold",Arial, Helvetica, sans-serif;
 }
 .footerNavigation li.liClear
 {
 	clear: both;
 	float: none;
+}
+.footerBottom
+{
+	border-top: 1px solid #dadada;
+	padding:20px 0px 130px 200px;
+}
+.footerBottomMenu
+{
+
+	float:left;
+	list-style: none;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+}
+.footerBottomMenu li:first-child
+{
+	border-left: 0px;
+}
+.footerBottomMenu li
+{
+	float:left;
+	border-left:1px solid #dadada;
+}
+
+.footerBottomMenu a
+{
+	display: block;
+	padding: 0px 10px;
+	color:#000000;
+}
+.footerBottomMenu li.liClear
+{
+	clear: both;
+	float: none;
+	border:0px;
+}
+.copyRight
+{
+	float:left;
+	color: #dadada;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 15px 0px 0px 140px;
 }

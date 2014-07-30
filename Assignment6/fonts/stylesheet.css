@@ -1,9 +1,0 @@
-﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
-@font-face 
-{
-	font-family:"Oxygen";
-	src:url("../fonts/Oxygen.eot?") format("../fonts/eot"),
-	url("../fonts/Oxygen.woff") format("../fonts/woff"),
-	url("../fonts/Oxygen.ttf") format("truetype"),
-	url("Oxygen.svg#Oxygen") format("svg");font-weight:normal;font-style:normal;
-}
