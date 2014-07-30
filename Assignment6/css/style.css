@@ -142,7 +142,7 @@ h6
 {
 	float:left;
 }
-.navigation li.clear
+.navigation li.liClear
 {
 	float:none;
 	clear:both;
@@ -162,7 +162,7 @@ h6
 	border:1px solid #888888;
 	border-radius:3px;
 	float:left;
-	margin:10px 0px 0px 60px;
+	margin:10px 10px 0px 60px;
 	
 
 }
@@ -185,8 +185,10 @@ h6
 .socialMenu
 {
 	list-style:none;
-	float:right;
+	float:left;
 	margin-top: 10px;
+
+	
 }
 .socialMenu li
 {
@@ -241,6 +243,8 @@ h6
 	color:#ffffff;
 	margin-top: -105px;
 
+
+
 }
 .sliderContent h2
 {
@@ -252,6 +256,7 @@ h6
 	line-height: 20px;
 	font-size: 22px;
 	margin-top: 20px;
+	font-family: "MinionProRegular",Arial, Helvetica, sans-serif;
 }
 .tabs
 {
@@ -343,6 +348,7 @@ h6
 	
 	padding: 20px 10px 25px;
 	color:#ffffff;
+	font-family: "MinionProRegular",Arial, Helvetica, sans-serif;
 }
 .eventDate
 {
@@ -359,6 +365,7 @@ h6
 	font-size: 14px;
 	line-height: 16px;
 	margin-top: 16px;
+
 }
 .events li.liClear
 {
@@ -389,6 +396,7 @@ h6
 	color:#666666;
 	text-transform: uppercase;
 	margin-bottom: 15px;
+	line-height: 14px;
 
 }
 .footerNavigation a
