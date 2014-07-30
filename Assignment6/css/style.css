@@ -90,10 +90,12 @@ a
 h2
 {
 	font-size: 44px;
+	line-height: 46px;
 }
 h3
 {
 	font-size: 40px;
+	line-height: 44px;
 }
 h5
 {
@@ -171,10 +173,11 @@ h6
 	border: 0px;
 	height: 28px;
 	float:left;
+	background:url('../images/search.png') no-repeat 97% center;
 }
 .searchIcon
 {
-	background:url('../images/search.png') no-repeat right;
+	
 	height: 16px;
 	width: 16px;
 	display: block;
@@ -204,14 +207,11 @@ h6
 {
 	display:block;
 	margin :0px 3px;
-}
-.socialIcon
-{
 	width:30px;
 	height:30px;
-	background:#000000;
 	border-radius:30px;
 }
+
 .socialIconFb
 {
 	background:#000000 url('../images/fb.png') no-repeat center center;
@@ -232,19 +232,20 @@ h6
 {
 	background:#000000;
 	min-height: 545px;
+	position: relative;
+	left:0;
+	top:0;
 }
 .sliderImg
 {
-	float:left;
+	min-height: 545px;
 }
 .sliderContent
 {
-	float:left;
+	
 	color:#ffffff;
-	margin-top: -105px;
-
-
-
+	position: absolute;
+	bottom: 30px;
 }
 .sliderContent h2
 {
@@ -267,9 +268,8 @@ h6
 .tabsMenu
 {
 	list-style: none;
-	float: left;
 	padding: 20px 10px;
-	margin-left: -20px;
+	margin-right: -10px;
 }
 .tabsMenu li
 {
@@ -278,8 +278,8 @@ h6
 	border-radius: 5px;
 	font-size: 22px;
 	line-height: 28px;
-	background: #ffffff;
-	margin-left: 20px;
+	margin: 0 10px;
+	background:#ffffff url('../images/tabIcon.png') no-repeat 95% center;
 }
 .tabsMenu a
 {
@@ -287,31 +287,26 @@ h6
 	display: block;
 	color:#222222;
 }
+.tabsMenu span
+{
+	padding-right: 50px;
+}
 .tabsMenu li.liClear
 {
 	float:none;
 	clear:both;
-	width: 0px;
+	width: auto;
 	border-radius: 0px;
 	padding:0px;
+	margin:0;
+	background:none;
+	line-height: 0;
 	
-}
-.tabsIcon
-{
-	height: 25px;
-	width: 25px;
-	background:url('../images/tabIcon.png') no-repeat center;
-	
-	float:right;
-}
-.main
-{
-
 }
 
 .content
 {
-	padding: 65px 20px 70px 10px;
+	padding: 65px 10px 70px 10px;
 }
 .content h3
 {
@@ -322,26 +317,25 @@ h6
 .events
 {
 	list-style: none;
-	float:left;
+	margin :0 -5px;
 	
-	margin-left: -20px;
 }
 .events li
 {
 	float:left;
-	width:280px;
-	margin-left: 20px;
+	width:300px;
+	margin:0 5px;
 	background:#4466ff;
 }
 .events a
 {
 	display: block;
-	width:inherit;
+	
 }
 .eventImg
 {
 	min-height: 200px;
-	width:inherit;
+	max-width:100%;
 }
 .eventDescription
 {
@@ -371,8 +365,9 @@ h6
 {
 	clear:both;
 	float:none;
-	width: 0px;
+	width: auto;
 	margin-left: 0px;
+	margin:0;
 	background:none;
 }
 .footer
@@ -383,12 +378,13 @@ h6
 .footerContent
 {
 	padding: 25px 10px 130px 10px;
+	
 }
 .footerNavigation
 {
 	float:left;
 	list-style: none;
-	margin-right: 120px;
+	margin-right: 65px;
 
 }
 .footerNavigation h6
@@ -428,12 +424,13 @@ h6
 .footerBottom
 {
 	border-top: 1px solid #dadada;
-	padding:20px 0px 130px 200px;
+	padding:20px 0px 130px 0px;
+	text-align: center;
 }
 .footerBottomMenu
 {
 
-	float:left;
+	
 	list-style: none;
 	font-size: 12px;
 	line-height: 20px;
@@ -448,13 +445,13 @@ h6
 }
 .footerBottomMenu li
 {
-	float:left;
+	display: inline;
 	border-left:1px solid #dadada;
 }
 
 .footerBottomMenu a
 {
-	display: block;
+	
 	padding: 0px 10px;
 	color:#000000;
 }
@@ -466,9 +463,9 @@ h6
 }
 .copyRight
 {
-	float:left;
+	
 	color: #dadada;
 	font-size: 14px;
-	line-height: 20px;
-	margin: 15px 0px 0px 140px;
+	line-height: 30px;
+	
 }
