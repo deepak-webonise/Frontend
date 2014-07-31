@@ -1,0 +1,483 @@
+/* cssreset.com */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section 
+{
+	display: block;
+}
+body
+{
+	line-height: 1;
+	
+}
+ol, ul
+{
+	list-style: none;
+}
+blockquote, q 
+{
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after 
+{
+	content: '';
+	content: none;
+}
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End of Reset CSS*/
+@font-face 
+{
+	font-family:"Raleway";
+	src:url("../fonts/Raleway-Regular.eot?") format("eot"),
+	url("../fonts/Raleway-Regular.woff") format("woff"),
+	url("../fonts/Raleway-Regular.ttf") format("truetype"),
+	url("../fonts/Raleway-Regular.svg#Raleway") format("svg");
+	font-weight:normal;font-style:normal;
+}
+@font-face
+{
+	font-family:"Raleway Bold";
+	src:url("../fonts/Raleway-Bold.eot?") format("eot"),
+	url("../fonts/Raleway-Bold.woff") format("woff"),url("RalewayBold.ttf") format("truetype"),
+	url("../fonts/Raleway-Bold.svg#Raleway-Bold") format("svg");
+	font-weight:normal;font-style:normal;
+}
+ @font-face 
+ {
+ 	font-family:"Raleway Light";
+ 	src:url("../fonts/Raleway-Light.eot?") format("eot"),
+ 	url("../fonts/Raleway-Light.woff") format("woff"),
+ 	url("../fonts/RalewayLight.ttf") format("truetype"),
+ 	url("../fonts/Raleway-Light.svg#Raleway-Light") format("svg");
+ 	font-weight:normal;font-style:normal;
+ }
+ @font-face 
+ {
+ 	font-family:"Raleway Medium";
+ 	src:url("../fonts/Raleway-Medium.eot?") format("eot"),
+ 	url("../fonts/Raleway-Medium.woff") format("woff"),
+ 	url("../fonts/RalewayMedium.ttf") format("truetype"),
+ 	url("../fonts/Raleway-Medium.svg#Raleway-Medium") format("svg");
+ 	font-weight:normal;font-style:normal;
+ }
+ body
+ {
+ 	font-family: "Raleway",Arial, Helvetica, sans-serif;
+ 	font-size: 14px;
+ 	line-height: 16px;
+ 	
+ }
+a
+ {
+ 	text-decoration: none;
+ }
+ h2
+ {
+ 	font-size: 50px;
+ 	line-height: 52px;
+ }
+ h4
+ {
+ 	font-size: 21px;
+ }
+ h6
+ {
+ 	font-size: 16px;
+ }
+ .container
+ {
+ 	width: 940px;
+ 	margin: 0px auto;
+ }
+ .clear
+ {
+ 	float: none;
+ 	clear: both;
+ }
+ .header
+ {
+ 	border-bottom:1px solid  rgba(0, 0, 0, 0.15);;
+ 	-webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+	background:#ffffff;
+ }
+ .logo
+ {
+ 	min-height: 60px;
+ 	padding : 22px 0px 8px 10px;
+ 	margin-right: 45px;
+ 	float:left;
+ }
+ .navigation
+ {
+ 	font-family: "Raleway Bold",Arial, Helvetica, sans-serif;
+ 	font-size: 16px;
+ 	line-height:42px;
+ 	list-style: none;
+ 	float:left;
+
+ }
+ .navigation li
+ {
+ 	float:left;
+ }
+ .navigation a
+ {
+ 	display: block;
+ 	color:#217543;
+ 	padding:28px 19px;
+
+ }
+ .navigation li.liClear
+ {
+ 	float: none;
+ 	clear: both;
+ }
+ .slider
+ {
+ 	font-family: "Raleway Light",Arial, Helvetica, sans-serif;
+ 	background:url('../images/sliderBg.png') repeat-x;
+ }
+ .slider h2
+ {
+ 	color:#217543;
+
+ }
+ .sliderContent
+ {
+ 	width: 940px;
+ 	position: relative;
+ 	left: 0;
+ 	top: 0;
+ }
+ .silderImg
+ {
+ 	min-height: 445px;
+ }
+ .slider img
+ {
+ 	max-width: 100%;
+ 	overflow: hidden;
+ }
+ .sliderText
+ {
+ 	position: absolute;
+ 	bottom:220px;
+ 	left:35px; 
+ 	width: 500px;
+ }
+ .greenButton
+ {
+ 	width: 196px;
+ 	min-height: 38px;
+ 	background: #155225 url('../images/buttonBgGreen.png') repeat-x;
+ 	border:1px solid #155225;
+ 	border-radius: 2px;
+ 	color:#ffffff;
+ 	font-family: "Raleway Bold",Arial, Helvetica, sans-serif;
+ 	font-size: 18px;
+ 	line-height: 38px;
+ 	display: block;
+ 	text-align: center;
+ }
+ .thumbnails
+ {
+ 	font-family: "Raleway Regular",Arial, Helvetica, sans-serif;
+ 	font-size: 18px;
+ 	line-height: 20px;
+ 	
+ }
+ .thumnailContainer
+ {
+ 	padding: 25px 0;
+ 	border-bottom: 1px solid #cccccc;
+ }
+ .thumbnail 
+ {
+ 	list-style: none;
+ 	margin-left: -30px;
+ }
+ .thumbnail li
+ {
+ 	border: 1px solid #cccccc;
+ 	border-radius: 2px;
+ 	padding: 16px 20px 20px 15px;
+ 	float:left;
+ 	margin-left: 30px;
+ }
+ .thumbnailContent
+ {
+ 	width:258px;
+ 	float: left;
+ 	color: #636363;
+ }
+ .thumbnailContent h4
+ {
+ 	font-family: "Raleway Medium",Arial, Helvetica, sans-serif;
+ 	line-height: 24px;
+ 	text-transform: uppercase;
+ }
+.thumbnailContent span
+{
+	font-family: "Raleway",Arial, Helvetica, sans-serif;
+ 	line-height: 20px;
+ 	font-size: 18px;
+ 	margin-top:10px;
+
+}
+.thumbnailImg
+{
+	min-height: 133px;
+	float: left;
+	margin-left: 25px;
+}
+.thumbnailImg img
+{
+	max-width: 100%;
+	overflow: hidden;
+}
+.thumbnail li.liClear
+{
+	clear:both;
+	border: 0;
+ 	border-radius: 0;
+ 	padding: 0;
+ 	float:none;
+ 	margin: 0;
+}
+.thumbnailContent form
+{
+	border:1px solid #dddddd;
+	border-radius: 3px;
+	margin-top: 7px;
+}
+.thumbnailContent input
+{
+	outline: none;
+	border:0;
+	height: 30px;
+}
+.thumbnailContent input[type="submit"]
+{
+	background: url('../images/buttonBg.png') repeat-x;
+	color: #636363;
+	width: 75px;
+	height: 34px;
+	cursor:pointer;
+	float:right;
+	
+}
+.greenButtonThumb
+{
+	margin-top: 30px;
+}
+.grid
+{
+	background: #000000 url('../images/bodyBg.png') repeat;
+}
+.gridContent
+{
+	padding: 94px 25px;
+}
+.blocks
+{
+	list-style: none;
+	margin-left: -30px;
+	
+}
+.blocks li
+{
+	float:left;
+	width:275px;
+	margin-left: 30px;
+	
+}
+
+.blockImg
+{
+	min-height: 160px;
+	
+}
+.blockImg img
+{
+	max-width:100%;
+	overflow: hidden;
+}
+.blockDescription
+{
+	
+	
+	color:#636363;
+	font-family: "Raleway",Arial, Helvetica, sans-serif;
+}
+.blockDescription h6
+{
+	line-height: 18px;
+	font-family: "Raleway Medium",Arial, Helvetica, sans-serif;
+	color: #1d683c;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	
+}
+.blockDescription span
+{
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 18px;
+	
+
+}
+.blockDescription a
+{
+	color: #1d683c;
+	font-size: 12px;
+	text-transform: uppercase;
+	display: block;
+	margin-top: 18px;
+	font-weight: bold;
+}
+.blocks li.liClear
+{
+	clear:both;
+	float:none;
+	width: auto;
+	margin:0;
+}
+.footer
+{
+	background:#f7f7f7;
+	border-top:1px solid #e1e1e1;
+}
+.footerContent
+{
+	padding:45px 0px 20px 0px;
+}
+.footerNavigation
+{
+	list-style: none;
+	float: left;
+}
+.footerNavigation li
+{
+	display: inline;
+}
+.footerNavigation a
+{
+	color:#1d673b;
+	padding:0 10px ;
+	font-weight: bold;
+}
+.socialMenu
+{
+	float:right;
+	list-style: none;
+}
+.socialMenu li
+{
+	float: left;
+}
+.socialMenu a
+{
+	display:block;
+	margin :0px 3px;
+	width:34px;
+	height:34px;
+	border-radius:5px;
+	background-color:#1f6e3f;
+}
+.socialMenu a:hover
+{
+	background-color:#222222;
+}
+.socialIconFb
+{
+	background: url('../images/fb.png') no-repeat center center;
+}
+.socialIconTw
+{
+	background:#1f6e3f url('../images/tw.png') no-repeat center center;
+}
+.socialIconPing
+{
+	background:#1f6e3f url('../images/ping.png') no-repeat center center;
+}
+.socialIconGoogle
+{
+	background:#1f6e3f url('../images/google.png') no-repeat center center;
+}
+.footerBottomMenu
+{
+	list-style: none;
+	font-size: 12px;
+	line-height: 14px;
+	display: inline;
+	margin-left: 60px;
+}
+.socialMenu li.liClear
+{
+	clear: none;
+	float: none;
+}
+
+.footerBottomMenu li:first-child
+{
+	border-left: 0px;
+}
+.footerBottomMenu li
+{
+	display: inline;
+	border-left:1px solid #dadada;
+}
+
+.footerBottomMenu a
+{
+	
+	color: #b1b1b1;
+	padding: 0 5px 0 15px;
+}
+.footerBottomMenu a:hover
+{
+	color:#1d673b;;
+}
+.footerBottomMenu li.liClear
+{
+	clear: both;
+	float: none;
+	border:0px;
+}
+.copyRight
+{
+	
+	color: #b1b1b1;
+	font-size: 12px;
+	line-height: 14px;
+
+	
+}
