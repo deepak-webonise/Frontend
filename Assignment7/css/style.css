@@ -1,6 +1,6 @@
 /* cssreset.com */
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h4, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -101,11 +101,11 @@ h2
  	font-size: 50px;
  	line-height: 52px;
 }
-h4
+h3
 {
  	font-size: 21px;
 }
-h6
+h4
 {
  	font-size: 16px;
 }
@@ -126,13 +126,13 @@ h6
 	-moz-box-shadow:    0px 1px 5px 0px rgba(0, 0, 0, 0.2);
 	box-shadow:         0px 1px 5px 0px rgba(0, 0, 0, 0.2);
 	background:#ffffff;
-	
+
 }
  .logo
  {
  	min-height: 60px;
- 	padding : 22px 0px 8px 10px;
- 	margin-right: 45px;
+ 	padding : 22px 10px 8px 10px;
+ 	margin-right: 15px;
  	float:left;
  }
  .navigation
@@ -163,28 +163,28 @@ h6
  .slider
  {
  	font-family: "Raleway Light",Arial, Helvetica, sans-serif;
- 	background:url('../images/sliderBg.png') repeat-x;
+ 	
  }
  .slider h2
  {
  	color:#217543;
+ 	display: inline;
 
  }
  .sliderContent
  {
  	width: 940px;
- 	position: relative;
- 	left: 0;
- 	top: 0;
+ 	position: relative; 	
  }
  .silderImg
  {
- 	min-height: 445px;
+ 	height: 445px;
+ 	overflow: hidden;
  }
  .slider img
  {
  	max-width: 100%;
- 	overflow: hidden;
+ 	
  }
  .sliderText
  {
@@ -204,7 +204,7 @@ h6
  	font-family: "Raleway Bold",Arial, Helvetica, sans-serif;
  	font-size: 18px;
  	line-height: 38px;
- 	display: block;
+ 	display: inline-block;
  	text-align: center;
  }
  .thumbnails
@@ -231,6 +231,7 @@ h6
  	padding: 16px 20px 20px 15px;
  	float:left;
  	margin-left: 30px;
+ 	width:416px;
  }
  .thumbnailContent
  {
@@ -238,11 +239,12 @@ h6
  	float: left;
  	color: #636363;
  }
- .thumbnailContent h4
+ .thumbnailContent h3
 {
  	font-family: "Raleway Medium",Arial, Helvetica, sans-serif;
  	line-height: 24px;
  	text-transform: uppercase;
+ 	
 }
 .thumbnailContent span
 {
@@ -254,9 +256,9 @@ h6
 }
 .thumbnailImg
 {
-	min-height: 133px;
-	float: left;
-	margin-left: 25px;
+	height: 133px;
+	width:134px;
+	float: right;
 	overflow: hidden;
 }
 .thumbnailImg img
@@ -275,15 +277,19 @@ h6
 }
 .thumbnailContent form
 {
-	border:1px solid #dddddd;
+	
 	border-radius: 3px;
 	margin-top: 7px;
 }
-.thumbnailContent input
+.thumbnailContent input[type="text"]
 {
-	outline: none;
-	border:0;
+	
 	height: 30px;
+	border:1px solid #dddddd;
+	width:180px;
+	float: left;
+	border-right: none;
+	font-size: 14px;
 }
 .thumbnailContent input[type="submit"]
 {
@@ -292,7 +298,6 @@ h6
 	width: 75px;
 	height: 34px;
 	cursor:pointer;
-	float:right;
 	font-size: 14px;
 	font-family: "Raleway Medium",Arial, Helvetica, sans-serif;
 	
@@ -322,13 +327,13 @@ h6
 
 .blockImg
 {
-	min-height: 160px;
-	
+	height: 160px;
+	overflow: hidden;	
 }
 .blockImg img
 {
 	max-width:100%;
-	overflow: hidden;
+	
 }
 .blockDescription
 {
@@ -337,7 +342,7 @@ h6
 	color:#636363;
 	font-family: "Raleway",Arial, Helvetica, sans-serif;
 }
-.blockDescription h6
+.blockDescription h4
 {
 	line-height: 18px;
 	font-family: "Raleway Medium",Arial, Helvetica, sans-serif;
@@ -346,12 +351,11 @@ h6
 	margin-bottom: 15px;
 	
 }
-.blockDescription span
+.blockDescription p
 {
 	font-size: 14px;
 	line-height: 22px;
-	margin-top: 18px;
-	
+	margin: 18px 0px;
 
 }
 .blockDescription a
@@ -359,8 +363,6 @@ h6
 	color: #1d683c;
 	font-size: 12px;
 	text-transform: uppercase;
-	display: block;
-	margin-top: 18px;
 	font-weight: bold;
 }
 .blocks li.liClear
@@ -377,7 +379,7 @@ h6
 }
 .footerContent
 {
-	padding:45px 0px 20px 0px;
+	padding:40px 0px 20px 0px;
 }
 .footerNavigation
 {
@@ -386,13 +388,14 @@ h6
 }
 .footerNavigation li
 {
-	display: inline;
+	float:left;
 }
 .footerNavigation a
 {
 	color:#1d673b;
-	padding:0 10px ;
+	padding:5px 10px ;
 	font-weight: bold;
+	display: block;
 }
 .socialMenu
 {
@@ -439,6 +442,7 @@ h6
 	line-height: 14px;
 	display: inline;
 	margin-left: 60px;
+	float:left;
 }
 .socialMenu li.liClear
 {
@@ -452,7 +456,7 @@ h6
 }
 .footerBottomMenu li
 {
-	display: inline;
+	float:left;
 	border-left:1px solid #636363;
 }
 
@@ -464,7 +468,7 @@ h6
 }
 .footerBottomMenu a:hover
 {
-	color:#1d673b;;
+	color:#1d673b;
 }
 .footerBottomMenu li.liClear
 {
@@ -478,6 +482,6 @@ h6
 	color: #959595;
 	font-size: 12px;
 	line-height: 14px;
-
+	float:left;
 	
 }
