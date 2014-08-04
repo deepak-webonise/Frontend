@@ -1,0 +1,580 @@
+/* cssreset.com */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h4, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section 
+{
+	display: block;
+}
+body
+{
+	line-height: 1;
+	
+}
+ol, ul
+{
+	list-style: none;
+}
+blockquote, q 
+{
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after 
+{
+	content: '';
+	content: none;
+}
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input
+{
+	margin: 0;
+	padding: 0;
+}
+/*End of Reset CSS*/
+@font-face 
+{
+	font-family:"Questrial";
+	src:url("../fonts/Questrial-Regular.eot?") format("eot"),
+	url("../fonts/Questrial-Regular.woff") format("woff"),
+	url("../fonts/Questrial-Regular.ttf") format("truetype"),
+	url("../fonts/Questrial-Regular.svg#Questrial-Regular") format("svg");
+	font-weight:normal;font-style:normal;
+}
+@font-face 
+{
+	font-family: "Verdana";
+	src: url('../fonts/34240723-verdana.eot');
+	src: url('../fonts/34240723-verdana.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/34240723-verdana.svg#Verdana') format('svg'),
+	url('../fonts/34240723-verdana.woff') format('woff'),
+	url('../fonts/34240723-verdana.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body
+{
+	font-family: "Verdana",Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px; 	
+}
+a
+{
+	text-decoration: none;
+	color:#0088aa;
+}
+h3
+{
+	font-size: 28px;
+
+}
+h4
+{
+	font-size: 18px;
+
+}
+
+.container
+{
+	width: 940px;
+	margin: 0 auto;
+}
+.clear
+{
+	clear:both;
+	float:none;
+}
+.header
+{
+	border-bottom:1px solid  #ececec;
+}
+.headerTop
+{
+	background: #f8f8f8;
+	
+	
+}
+.search
+{
+	float:left;
+	margin-top:6px;
+}
+.search input[type="text"]
+{
+	float: left;
+	font-size: 11px;
+	line-height: 18px;
+	width:270px;
+	height: 18px;
+}
+.search span
+{
+	background:url('../images/searchBg.png') repeat-x;
+}
+.search input[type="submit"]
+{
+	background: #666666 url('../images/searchIcon.png') no-repeat center center;
+	border: 1px solid #444444;
+	width:22px;
+	height:22px;
+}
+.headerNavigation
+{
+	float:right;
+	list-style: none;
+	font-size: 11px;
+	line-height: 18px;
+}
+.headerNavigation li
+{
+	float:left;
+	background:url('../images/subMenuIcon.png') no-repeat 94% center;
+	border-right: 1px solid #dddddd;
+}
+.headerNavigation a
+{
+	padding: 6px 20px;
+	color:#0088aa;
+	display: block;
+}
+.headerLogo
+{
+	padding: 10px 0;
+}
+.logo
+{
+	float: left;
+	padding: 25px 0px;
+
+}
+.topAdvs
+{
+	float:right;
+	overflow: hidden;
+	height: 90px;
+}
+.topAdvs img
+{
+	max-width: 100%;
+}
+.topAdvs a
+{
+	display: block;
+}
+.navigation
+{
+	border:1px solid #bbbbbb;
+	background:#d0d0d0 url('../images/navigationBg.png') repeat-x;
+	font-family: "Questrial",Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	height: 33px;
+	
+}
+.navigation ul
+{
+	list-style: none;
+}
+.navigation li
+{
+	float:left;
+}
+.navigation a
+{
+	display: block;
+	color:#222222;
+	padding: 5px 25px;
+}
+.navigation a:hover
+{
+	background: #b40e0e;
+	color:#ffffff;
+}
+.navigation a:active
+{
+	background: #b40e0e url('../images/homeIconBg.png') no-repeat center center;
+	height: 44px;
+}
+.navigation li.liClear
+{
+	float: none;
+	clear: both;
+	padding: 0;
+}
+.navigation li:first-child
+{
+	background: url('../images/homeIconBg.png') no-repeat center center;
+	height: 44px;
+}
+.row
+{
+	margin: 0 -15px;
+	margin-top:30px; 
+}
+.col
+{
+	width: 300px;
+	float:left;
+	margin: 0px 10px;
+	
+}
+.colRow1
+{
+	background: #f8f8f8;
+	border:1px solid #dddddd;
+	border-radius: 3px;
+		
+}
+.colContent
+{
+	padding: 20px 20px;
+	width:260px;
+}
+.colContent h3
+{
+	line-height: 30px;
+	border-bottom:1px solid #dddddd;
+	color: #222222;
+	font-family: "Questrial",Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+}
+.colContent p
+{
+	font-size: 12px;
+	line-height: 16px;
+	color:#666666;
+}
+.colContent form
+{
+	margin-top:10px; 
+}
+.colContent select
+{
+	width: 103px;
+	border: 1px solid #dddddd;
+	height: 30px;
+	background: #ffffff;
+	font-size: 12px;
+	color:#888888;
+}
+.colContent input[type="submit"]
+{
+	height: 28px;
+	background:url('../images/submitBg.png') repeat-x;
+	border: 1px solid #444444;
+	width: 36px;
+	color:#ffffff;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.budget
+{
+	border-top: 1px solid #dddddd;
+	margin:30px 0 10px;
+	padding-top: 20px; 
+}
+.budget h4
+{
+	float: left;
+	color:#333333;
+	margin-bottom: 20px;
+}
+.budget span
+{
+	float: right;
+}
+.usedCars select
+{
+	width: 100%;
+}
+.sellCars
+{
+	margin-top: 14px;
+	
+}
+.carPrices
+{
+	margin-bottom: 38px;
+}
+.carPricesButton
+{
+	display: block;
+	padding: 10px 0;
+	background: url('../images/carPriceBg.png') repeat-x;
+	width: 258px;
+	font-size:16px;
+	line-height: 18px;
+	font-family: "Questrial",Arial, Helvetica, sans-serif;
+	border:1px solid #bbbbbb;
+	border-radius: 3px;
+	text-align: center;
+	margin-top: 20px;
+	color:#0088aa;
+}
+.carPricesButton span
+{
+	color: #dd1111;
+}
+.colRow2
+{
+	background: url('../images/row2Bg.jpg') no-repeat top center;
+}
+.reviews
+{
+	list-style: none;
+	line-height: 16px;
+}
+.reviews li
+{
+	border-bottom: 1px solid #eeeeee; 
+	padding:10px 0; 
+}
+.reviews a
+{
+	
+	display: block;
+	color:#0088aa;	
+}
+.reviewsContent
+{
+	float: right;
+	width: 200px;
+}
+.reviews p
+{
+	color:#0088aa;
+	font-size: 12px;
+}
+.reviews span
+{
+	color:#999999;
+	font-size: 11px;
+}
+.reviewsImg
+{
+	border:1px solid #bbbbbb;
+	border-radius: 3px;
+	height: 48px;
+	background: #565654;
+	float:left;
+	overflow: hidden;
+}
+.reviewsImg img
+{
+	max-width: 100%;
+}
+.advsRight
+{
+	height:200px;
+	overflow: hidden;
+	margin: 0px;
+}
+.advsRight img
+{
+	max-width: 100%;
+}
+.rightButton2
+{
+	display: block;
+	padding: 5px 10px;
+	background: url('../images/rightButtonBg.png') repeat-x;
+	width: 258px;
+	font-size:16px;
+	line-height: 18px;
+	font-family: "Questrial",Arial, Helvetica, sans-serif;
+	border:1px solid #bbbbbb;
+	border-radius: 3px;
+	color:#0088aa;	
+	margin:10px 0; 
+	height: 38px;
+}
+.rightButton2 p
+{
+	color: #333333;
+}
+.rightArrow
+{
+	background:url('../images/rightArrow.png') no-repeat 97% center;
+}
+.news
+{
+	list-style: none;
+}
+.news li
+{
+	border-bottom: 1px solid #eeeeee; 
+	padding:10px 0; 
+}
+.news a
+{
+	
+	display: block;
+	color:#0088aa;	
+}
+.news span
+{
+	color:#999999;
+	font-size: 11px;
+}
+.newsContent
+{
+	padding: 10px 0;
+}
+.news li:last-child
+{
+	border:0;
+}
+#inputSubmit
+{
+	width:250px;
+	height: 28px;
+	background:url('../images/carPriceBg.png') repeat-x;
+	border: 1px solid #bbbbbb;
+	
+	color:#0088aa;
+	font-size: 14px;
+	
+}
+.colBig
+{
+	float:left;
+	background: url('../images/borderGradBig.jpg') no-repeat;
+	padding: 20px;
+	margin: 0 -10px;
+}
+.colSmall
+{
+	width: 180px;
+	float:left;
+	margin: 10px;
+}
+.colSmall ul
+{
+	list-style: none;
+}
+.colSmall li
+{
+	padding: 15px 0px;
+	border-bottom: 1px solid #eeeeee;
+}
+.colSmall span
+{
+	color:#666666;
+}
+.colSmall h4
+{
+	line-height: 20px;
+	border-bottom:1px solid #dddddd;
+	color: #222222;
+	font-family: "Questrial",Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+}
+.bottomAdvs
+{
+	float: right;
+	width: 300px;
+	overflow: hidden;
+}
+.bottomAdvs img
+{
+	max-width: 100%;
+}
+.footer
+{
+	
+	background: #f8f8f8;
+	margin-top :40px;
+	position: relative;
+	border-top:1px solid #dddddd;
+}
+.footerContent
+{
+	padding: 20px;
+	background: url('../images/footerGradient.png') no-repeat;
+	
+	position: absolute;
+	top: -40px;
+	width: 900px;
+}
+.footerNavigation
+{
+	list-style: none;
+	float: left;
+	font-size: 18px;
+	line-height: 24px;
+
+}
+.footerNavigation li
+{
+	float:left;
+}
+.footerNavigation a
+{
+	padding: 0 10px;
+	display: block;
+	color:#222222;
+}
+.footerNavigation a:hover
+{
+	color:#0088aa;
+}
+.socialMenu
+{
+	float: right;
+	list-style: none;
+}
+.socialMenu li
+{
+	float:left;
+}
+.socialIcon
+{
+	width:16px;
+	height:16px;
+	display: block;
+	padding: 0 3px;
+}
+.socialIconRS
+{
+	background:#ffffff url('../images/rssIcon.png') no-repeat center center;
+}
+.socialIconFB
+{
+	background:#ffffff url('../images/fb.png') no-repeat center center;
+}
+.socialIconTW
+{
+	background:#ffffff url('../images/t.png') no-repeat center center;
+}
+.socialIconGoogle
+{
+	background:#ffffff url('../images/g.png') no-repeat center center;
+}
+.socialIconYT
+{
+	background:#ffffff url('../images/yt.png') no-repeat center center;
+}
